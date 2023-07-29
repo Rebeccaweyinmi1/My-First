@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My First</title>
+    <style>
+        .logo{
+            height: 50px;
+            width: 100px;
+            border-radius: 50px;
+            position: fixed;
+        }
+        img{
+         max-width: 100%;
+         height: 100vh;
+        }
+        .container{
+            display: grid;
+            grid-template-columns:  1fr 1fr;
+        
+        }
+        .firstcolumn{
+          display: flex; 
+          flex-direction: column; 
+          justify-content: center;
+          align-content: center;
+          align-items: center;
+          gap: 5px;
+            
+        }
+        .second{
+            width: 100%;
+            justify-content: center;
+        }
+        
+        button{
+            border: none;
+            height: 50px;
+            width: 150px;
+            padding: 10px;
+            background-color:#98EECC;
+            font: 1.2em bold sans-serif ;
+            
+        }
+        button:hover{
+            background-color: goldenrod;
+        }
+        body{
+        background-color: #526D82;
+        }
+        header{
+            display: flex;
+
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div><img src="images/51368-removebg-preview.png" alt="" class="logo"></div>
+        
+    </header>
+     
+     <div class="container">
+        <div class="firstcolumn">
+            <div class="h1"><h1>Discovering Nature</h1></div>
+            <div class="para"> <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam quis consequat enim, eget suscipit arcu. Mauris sollicitudin, eros ut bibendum interdum, nulla sapien mattis ex, et semper velit leo in turpis. In at sapien nec dolor blandit imperdiet sed in libero. Cras malesuada leo non est accumsan, non semper lectus laoreet. Quisque ultricies sol licitudin ante, a imperdiet felis pretium non. Sed auctor elementum nisl vel convallis. Maecenas vel consectetur quam, ut vulputate nisl. Sed a pellentesque neque. Proin tempus volutpat elementum. Nam sem lectus, hendrerit id finibus rutrum, viverra non nisl. Cras euismod, nulla non elementum euismod, odio ipsum gravida dui, id vehicula est ante at nibh.</p></div>
+             <div class="button">
+                <button>Get In Touch</button>
+             </div>
+        </div>
+        <div class="second">
+            <img src="images/51379-removebg-preview.png" alt="">
+        </div>
+     </div>
+
+</body>
+</html>
